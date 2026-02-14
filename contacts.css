@@ -1,0 +1,42 @@
+/* contacts */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: #fff;
+    float: right;
+    width: 70%;
+    border-end-start-radius: 20px;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+
+
+
+/* trucks */
+
+
+#truck {
+   background-image: url("/img/Group\ 483.png");
+    background-position: center;
+    background-position: cover;
+    height: 100vh;
+
+}
