@@ -34,8 +34,16 @@ nav {
 
 .logo {
   float: left;
-  width: 30%;
+  padding: 0 300px;
+  width: 20%;
+  height: 70px;
+  display: flex;
+
+  i {
+    font-size: 25px;
+  }
 }
+
 
 ul {
   display: flex;
