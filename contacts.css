@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -20,11 +24,28 @@ header {
     width: 70%;
     border-end-start-radius: 20px;
     text-align: center;
+    padding: 30px 32px;
 }
 
 .logo {
     float: left;
     width: 30%;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 18px;
 }
 
 
