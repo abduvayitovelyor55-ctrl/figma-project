@@ -86,51 +86,58 @@
       <div class="text-map">
         <h1>Газораспределительные <br> станции</h1>
       </div>
-
-
-<div class="top-cards">
-  
-      <div class="card">
-        <div class="card-top">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>ПОКАЗАТЬ НА КАРТЕ</span>
-        </div>
-        <h3>ПУШКИНСКАЯ ГРС</h3>
-      </div>
-
-      <div class="card">
-        <div class="card-top">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>ПОКАЗАТЬ НА КАРТЕ</span>
-        </div>
-        <h3>ЗВЕНИГОРОДСКАЯ ГРС</h3>
-      </div>
-
-      <div class="card active">
-        <div class="card-top">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>ПОКАЗАТЬ НА КАРТЕ</span>
-        </div>
-        <h3>НОГИНСКАЯ ГРС</h3>
-      </div>
-
-      <div class="bottom">
-        <div class="info-card">
-          <div class="img-box"></div>
-          <h3>НОГИНСКАЯ ГРС</h3>
-          <p>
-            142410,<br>
-            Московская область,<br>
-            г. Ногинск,<br>
-            ул. Бетонная 1в
-          </p>
+      <div class="cards">
+        <div class="card" onclick="setActive(this)">
+          <div class="card-header">
+            <i style="color: #00b8d4;" class="fas fa-map-marker-alt"></i>
+            <span style="color: #00b8d4;">ПОКАЗАТЬ <br> НА КАРТЕ</span>
+          </div>
+          <div class="card-title">ПУШКИНСКАЯ ГРС</div>
+          <div class="card-info">
+            <div><i class="fas fa-map-pin"></i> 142100, Московская область</div>
+            <div><i class="fas fa-road"></i> ул. Бетонная 1а</div>
+          </div>
         </div>
 
-        <div class="map-box">
+        <div class="card" onclick="setActive(this)">
+          <div class="card-header">
+            <i style="color: #00b8d4;" class="fas fa-map-marker-alt"></i>
+            <span style="color: #00b8d4;">ПОКАЗАТЬ <br> НА КАРТЕ</span>
+          </div>
+          <div class="card-title" >ЗВЕНИГОРОДСКАЯ ГРС</div>
+          <div class="card-info">
+            <div><i class="fas fa-map-pin" ></i> 143180, Московская область</div>
+            <div><i class="fas fa-road"></i> г. Звенигород</div>
+          </div>
+        </div>
+
+        <div class="card active" onclick="setActive(this)">
+          <div class="card-header">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>ПОКАЗАТЬ <br> НА КАРТЕ</span>
+          </div>
+          <div class="card-title">НОГИНСКАЯ ГРС</div>
         </div>
       </div>
-</div>
 
+      <div class="map">
+        <iframe style="background-size: cover;"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577337.0331180686!2d36.725924402077666!3d55.58072977479567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2s!4v1771140034498!5m2!1sru!2s"
+          width="100%"  height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contact">
+        <div class="phone" >8 (800) 222-59-44</div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="company">
+    <div class="container">
+      
     </div>
   </section>
 </body>
