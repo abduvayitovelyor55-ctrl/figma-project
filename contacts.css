@@ -54,10 +54,9 @@ ul li {
 }
 
 ul li a {
-  display: flex;
   text-decoration: none;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px 40px;
   font-size: 18px;
 }
 
@@ -127,12 +126,13 @@ ul li a {
 .text-map {
   font-family: sans-serif;
   font-size: 22px;
-  padding: 100px 0;
+  padding: 20px 0;
+  color: white;
 }
 
 #location {
   background-color: #0e1116;
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 
@@ -230,67 +230,59 @@ ul li a {
 
 
 
-/* Planshetlar uchun (max-width: 1024px) */
-@media (max-width: 1024px) {
-  .hero-contant {
-    gap: 50px;
-  }
 
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 ustun */
-  }
+
+/* company section */
+
+.company {
+  background: #0b111a;
+  padding: 80px 0;
+  font-family: sans-serif;
+  color: white;
 }
 
-/* Mobil telefonlar uchun (max-width: 768px) */
-@media (max-width: 768px) {
-  header {
-    width: 100%;
-    border-radius: 0;
-  }
 
-  .nav-wrapper {
-    flex-direction: column;
-    /* Logotip va menyu ustma-ust */
-    gap: 15px;
-  }
-
-  .hero-contant {
-    flex-direction: column;
-    /* Rasm va matn ustma-ust */
-    text-align: center;
-    padding: 50px 0;
-  }
-
-  .hero-img img {
-    height: 300px;
-    /* Balandlikni kamaytirish */
-  }
-
-  .cards {
-    grid-template-columns: 1fr;
-    /* 1 ustun */
-  }
-
-  .order-btn {
-    margin-left: 0;
-    margin-top: 10px;
-  }
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Kichik mobil telefonlar uchun */
-@media (max-width: 480px) {
-  ul li a {
-    font-size: 14px;
-    padding: 8px;
-  }
+.company h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
 
-  .text-hero h1 {
-    font-size: 28px;
-  }
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .phone {
-    letter-spacing: 1px;
-    font-size: 20px;
-  }
+.info > div {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 25px 30px;
+  border-radius: 12px;
+}
+
+.info>div:nth-child(odd) {
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.info > div span:first-child {
+  flex: 1;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.info > div span:last-child {
+  flex: 1;
+  font-size: 15px;
+  text-align: right;
 }
