@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=M+PLUS+Rounded+1c&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,62 +12,66 @@
 </head>
 <body>
     <header>
+    <div class="header-container">
         <div class="header-top__container">
             <div class="header__top-block">
                 <div class="header-top-left__wrapper">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                    <img src="header-logo.svg" alt="">
+                    <div class="bars__wrapper">
+                        <img src="header-bars.svg" alt="">
+                    </div>
+                    <img class="header_logo" src="header-logo.svg" alt="">
                 </div>
                 <div class="header-top-right__wrapper">
-                    <div>
-                       <div>
-                            <p>RU</p>
-                            <p>ENG</p>
+                    <div class="header-numbers__wrapper">
+                       <div class="header-numbers__langues">
+                            <p class="langues-text" style="color: #FFFFFF;">RU</p>
+                            <img src="ENG-text.svg" alt="">
                        </div>
                        <div>
-                            <p>8 800 222 59 44</p>
+                            <p class="header-numbers_text">8 800 222 59 44</p>
                        </div>
                        <div>
-                            <p>Телефон для справок</p>
+                            <small class="header-certificates_text">Телефон для справок</small>
                        </div>
                     </div>
-                    <div>
-                        <i class="fa-regular fa-bell"></i>
+                    <div class="header-icon_bell">
+                        <img src="header-bell.svg" alt="">
                     </div>
-                    <div>
-                        <div>
-                            <p>Личный кабинет</p>
-                            <img src="header-group-img.svg" alt="">
+                    <div class="header-phone">
+                        <div class="header-contact">
+                            <p class="text-small-white700">Личный кабинет</p>
+                            <img class="header-group-icon" src="header-group-img.svg" alt="">
                         </div>
                         <div>
-                            <div>
-                                <p>Обратный звонок</p>
+                            <div class="header-btn">
+                                <p class="text-small-white700">Обратный звонок</p>
                             </div>
                         </div>
                     </div>        
                 </div>
             </div>
-            <div class="header__bottom-block">
-                <ul>
-                    <li><a href="#">Корпоративным клиентам</a></li>
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">Документы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </div>
         </div>
         <div class="header-center__container">
+            <div class="header__menu-block">
+                <ul>
+                    <li><a class="text-small-white700" href="#">Корпоративным клиентам</a></li>
+                    <li><a class="text-small-white700" href="#">Информация</a></li>
+                    <li><a class="text-small-white700" href="#">Документы</a></li>
+                    <li><a class="text-small-white700" href="#">Контакты</a></li>
+                </ul>
+            </div>
             <div>
                 <h1>обмен баллонов</h1>
                 <p>Пушкинская ГРС предлагает обмен бытовых газовых баллонов и всего ассортимента технических газов. Обмен газовых баллонов может быть осуществлен в специализированных пунктах обмена или может быть оформлен заказ обмена баллонов с доставкой на Ваш объект. PUSH.KA предоставляет услугу по обмену ваших пустых баллонов на наши, аналогичные по объёму.</p>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="header-center-img.svg" alt="">
             </div>
         </div>
         <div class="header-bottom__container">
             <i class="fa-solid fa-angle-down"></i>
         </div>
+    </div>
     </header>
     <main>
         <section class="home" id="home">
