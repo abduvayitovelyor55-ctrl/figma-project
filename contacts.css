@@ -339,7 +339,9 @@ footer {
   background-color: #11161f;
   color: #fff;
   float: left;
-  width: 30%;
+  width: 40%;
+  position: relative;
+  right: 100px;
   border-start-end-radius: 20px;
   text-align: center;
   padding: 20px 25px;
@@ -387,10 +389,9 @@ footer {
 }
 
 .footer-links {
-  display: grid;
+  display: flex;
   margin-bottom: 60px;
   color: white;
-  display: flex;
 }
 
 .footer-links h4 {
