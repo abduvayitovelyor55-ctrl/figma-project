@@ -44,7 +44,6 @@ nav {
   }
 }
 
-
 ul {
   display: flex;
 }
@@ -56,17 +55,8 @@ ul li {
 ul li a {
   text-decoration: none;
   color: #fff;
-  padding: 10px 40px;
+  padding: 30px 10px;
   font-size: 18px;
-}
-
-/* trucks */
-
-#truck {
-  background-image: url("/img/Group\ 483.png");
-  background-position: center;
-  background-position: cover;
-  height: 100vh;
 }
 
 .nav-end p {
@@ -94,7 +84,19 @@ ul li a {
   color: black;
 }
 
+/* trucks */
 
+#truck {
+  background-image: url("/img/Group\ 483.png");
+  background-position: center;
+  background-position: cover;
+  height: 100vh;
+}
+
+
+.hero-content ul li a {
+  padding-left: 50px;
+}
 
 .hero-contant {
   display: flex;
@@ -111,17 +113,9 @@ ul li a {
   color: #fff;
   font-size: 60px;
   padding: 25px 35px;
-
-
 }
 
-
-
-
-
 /* map cards page */
-
-
 
 .text-map {
   font-family: sans-serif;
@@ -134,8 +128,6 @@ ul li a {
   background-color: #0e1116;
   padding: 100px 0;
 }
-
-
 
 .cards {
   display: grid;
@@ -174,7 +166,6 @@ ul li a {
   span {
     font-weight: 900;
     font-size: 15px;
-
   }
 }
 
@@ -190,7 +181,6 @@ ul li a {
 .card-info {
   display: none;
   font-size: 14px;
-
 }
 
 .card.active .card-info {
@@ -210,6 +200,11 @@ ul li a {
   height: 400px;
 }
 
+.map img {
+  height: 350px;
+  width: 100%;
+}
+
 .contact {
   background: #1a1f2e;
   border: 2px solid white;
@@ -226,12 +221,6 @@ ul li a {
   letter-spacing: 7px;
 }
 
-
-
-
-
-
-
 /* company section */
 
 .company {
@@ -240,7 +229,6 @@ ul li a {
   font-family: sans-serif;
   color: white;
 }
-
 
 .container {
   max-width: 1100px;
@@ -260,7 +248,7 @@ ul li a {
   gap: 20px;
 }
 
-.info>div {
+.info > div {
   display: flex;
   justify-content: space-around;
   gap: 40px;
@@ -268,32 +256,29 @@ ul li a {
   border-radius: 12px;
 }
 
-.info>div:nth-child(odd) {
-  background: linear-gradient(90deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 0.02) 100%);
+.info > div:nth-child(odd) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.info>div span:first-child {
+.info > div span:first-child {
   flex: 1;
   font-size: 15px;
   opacity: 0.7;
 }
 
-.info>div span:last-child {
+.info > div span:last-child {
   flex: 1;
   font-size: 15px;
   text-align: right;
 }
 
-
-
-
-
 .gallery {
   background: #0b111a;
-  padding: 80px 0;
   color: white;
   font-family: sans-serif;
   flex-wrap: wrap;
@@ -320,17 +305,15 @@ ul li a {
 }
 
 .slides img {
-  width: 350px;
+  width: 31%;
   height: 400px;
   object-fit: cover;
   border-radius: 10px;
   flex-shrink: 0;
   transition: 0.3s;
   z-index: 100;
+  background-size: cover;
 }
-
-
-
 
 .navvv {
   background: none;
@@ -343,15 +326,11 @@ ul li a {
   transition: 0.3s;
 }
 
-
-
-
 /* footer */
-
 
 footer {
   background: #0b111a;
-  padding: 250px 0;
+  padding: 100px 0;
   font-family: sans-serif;
   color: white;
 }
@@ -407,13 +386,10 @@ footer {
   color: #aaa;
 }
 
-
-
-
-
 .footer-links {
   display: grid;
-  gap: 60px; grid-template-columns: repeat(5, 1fr);
+  gap: 60px;
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 60px;
 
   color: white;
@@ -443,7 +419,6 @@ footer {
   color: white;
 }
 
-
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -458,4 +433,3 @@ footer {
   text-decoration: none;
   transition: 0.3s;
 }
-
