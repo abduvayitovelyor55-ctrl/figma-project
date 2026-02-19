@@ -423,3 +423,104 @@ li{
     right: 0;
     outline: 30px solid #0E1116;
 }
+.about__wrapper{
+    width: 100%;
+    max-width: 1538px;
+    margin: 0 auto;
+    min-height: 943px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-margin{
+    margin: 100px 0;
+}
+.about__title{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text-icon__wrapper{
+    display: flex;
+    gap: 25px;
+}
+.about-block__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 754px;
+    width: 100%;
+    gap: 30px;
+}
+.about-content__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about-block__wrapper > div{
+    max-width: 754px;
+    width: 100%;
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+.about-block__wrapper > div > h1{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 114.99999999999999%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 400px;
+    width: 100%;
+}
+.important-text_style{
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.profit__wrapper{
+    max-width: 1538px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profit-card__wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1538px;
+    width: 100%;
+    align-items: center;
+}
+.profit-card{
+    max-width: 452px;
+    width: 100%;
+    border-radius: 15px;
+    background: #FFFFFF0D;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 107.4%);
+    backdrop-filter: blur(25px);
+    min-height: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.profit-card-img__wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.profit-card-img__wrapper > img {
+    padding: 35px 40px;
+    background: #12A5DE;
+    border-radius: 50%;
+}
