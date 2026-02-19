@@ -60,13 +60,15 @@
                     <li><a class="text-small-white700" href="#">Контакты</a></li>
                 </ul>
             </div>
-            <div>
-                <h1>обмен баллонов</h1>
-                <p>Пушкинская ГРС предлагает обмен бытовых газовых баллонов и всего ассортимента технических газов. Обмен газовых баллонов может быть осуществлен в специализированных пунктах обмена или может быть оформлен заказ обмена баллонов с доставкой на Ваш объект. PUSH.KA предоставляет услугу по обмену ваших пустых баллонов на наши, аналогичные по объёму.</p>
+         <div class="header-center-content__wrapper">
+            <div style="display: flex; flex-direction: column; gap: 100px;">
+                <h1 class="text-biggest_title" style="max-width: 769px; width: 100%;">обмен баллонов</h1>
+                <p class="text-primary_content" style="max-width: 633px; width: 100%;">Пушкинская ГРС предлагает обмен бытовых газовых баллонов и всего ассортимента технических газов. Обмен газовых баллонов может быть осуществлен в специализированных пунктах обмена или может быть оформлен заказ обмена баллонов с доставкой на Ваш объект. PUSH.KA предоставляет услугу по обмену ваших пустых баллонов на наши, аналогичные по объёму.</p>
             </div>
             <div>
-                <img src="header-center-img.svg" alt="">
+                <img class="header-center-img" src="header-center-img.svg" alt="">
             </div>
+         </div>
         </div>
         <div class="header-bottom__container">
             <i class="fa-solid fa-angle-down"></i>
@@ -79,15 +81,15 @@
                 <div class="home__wrapper">
                     <div>
                         <img src="home-img1.svg" alt="">
-                        <h1>заправка</h1>
+                        <h1 class="home-text">заправка</h1>
                     </div>
                     <div>
                         <img src="home-img2.svg" alt="">
-                        <h1>баллонный фонд</h1>
+                        <h1 class="home-text">баллонный фонд</h1>
                     </div>
                     <div>
                         <img src="home-img3.svg" alt="">
-                        <h1>Доставка</h1>
+                        <h1 class="home-text">Доставка</h1>
                     </div>
                 </div>
             </div>
@@ -96,82 +98,80 @@
             <div class="container--big">
                 <div class="delivery__wrapper">
                     <div class="delivery-top">
-                        <h1>Расчет расхода баллона</h1>
-                        <p>Выберите тип баллона</p>
+                        <h1 class="text-big_title">Расчет расхода баллона</h1>
+                        <p class="delivery-bold-text">Выберите тип баллона</p>
                     </div>
                     <div class="delivery-center">
                         <div class="delivery-center__left-block">
                             <div>
-                                <input type="text" placeholder="Баллон композитный Ragasco LPG 12,5 л">
+                                <input class="text-primary_content delivery-input" type="text" placeholder="Баллон композитный Ragasco LPG 12,5 л">
                             </div>
-                            <div>
-                                <div>
+                            <div class="delivery-cars__wrapper">
+                                <div class="delivery-cards">
                                     <div>
-                                        <p>Вес баллона</p>
+                                        <p class="delivery-bold-text">Вес баллона</p>
                                     </div>
                                     <div>
-                                        <p>4</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div>
-                                        <p>Вес баллона с газом</p>
-                                    </div>
-                                    <div>
-                                        <p>9</p>
+                                        <p class="home-text delivery-cards_numbers">4</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="delivery-cards">
                                     <div>
-                                        <p>Вес газа в баллоне</p>
-                                        <i class="fa-solid fa-angle-down"></i>
+                                        <p class="delivery-bold-text">Вес баллона с газом</p>
                                     </div>
                                     <div>
-                                        <p>5</p>
+                                        <p class="home-text delivery-cards_numbers">9</p>
+                                    </div>
+                                </div>
+                                <div class="delivery-cards">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <p class="delivery-bold-text">Вес газа в баллоне</p>
+                                        <i class="fa-solid fa-angle-down delivery-icon"></i>
+                                    </div>
+                                    <div>
+                                        <p class="home-text delivery-cards_numbers">5</p>
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div>
-                                    <p>Время работы газовой плиты в день</p>
-                                    <input type="text" placeholder="30 минут">
+                            <div class="delivery-30min">
+                                <div class="delivery-30min-div">
+                                    <p class="delivery-bold-text">Время работы газовой плиты в день</p>
+                                    <input class="home-text delivery-input2" type="text" placeholder="30 минут">
                                 </div>
-                                <div>
-                                    <i class="fa-solid fa-angle-down"></i>
+                                <div class="delivery-center_angledown">
+                                    <i class="fa-solid fa-angle-down delivery-icon"></i>
                                 </div>
                             </div>
                         </div>
                         <div class="delivery-center__rigth-block">
                             <div>
-                                <input type="text" placeholder="Имя *">
+                                <input class="text-primary_content delivery-input" type="text" placeholder="Имя *">
                             </div>
                             <div>
-                                <input type="text" placeholder="Телефон *">
+                                <input class="text-primary_content delivery-input" type="text" placeholder="Телефон *">
                             </div>
-                            <div>
-                                <input type="text" placeholder="Адрес">
-                                <p>Поля отмеченные знаком * обязательны к заполнению</p>
+                            <div style="display: flex; flex-direction: column; gap: 20px;">
+                                <input class="text-primary_content delivery-input" type="text" placeholder="Адрес">
+                                <p class="text-primary_tiny" style="text-align: center;">Поля отмеченные знаком * обязательны к заполнению</p>
                             </div>
-                            <div>
-                                <input type="checkbox">
-                                <p>Я принимаю условия <a href="#">Пользовательского соглашения</a></p>
+                            <div class="delivery-checkbox_wrapper">
+                                <input class="checkbox-style" type="checkbox">
+                                <p class="text-primary_content">Я принимаю условия <a style="color: blue;" href="#">Пользовательского соглашения</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="delivery-bottom">
-                        <div>
-                            <div>
+                        <div class="delivery-bottom-leftblock">
+                            <div class="delivery-bottom_speed">
                                 <img src="delivery-img.svg" alt="">
-                                <p>Вам хватит баллона на:</p>
+                                <p class="text-primary_tiny" style="text-transform: uppercase;">Вам хватит баллона на:</p>
                             </div>
-                            <div>
-                                <h1>53 дня</h1>
+                            <div class="delivery-53day">
+                                <h1>53 <span>дня</span></h1>
                             </div>
                         </div>
                         <div>
-                            <button>
-                                <a href="#">ОТПРАВИТЬ</a>
-                            </button>
+                                <a class="delivery-big_btn" href="#">ОТПРАВИТЬ</a>
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
             <div class="container--small equipment__wrapper">
                     <div class="equipment-content__wrapper">
                         <div>
-                            <h1>розничные магазины по продаже газосварочного оборудования</h1>
+                            <h1 class="text-big_title">розничные магазины по продаже газосварочного оборудования</h1>
                         </div>
                         <div>
                             <img src="equipment-img.svg" alt="">
@@ -300,25 +300,25 @@
                     <div class="phone_left-block">
                         <div>
                             <p><img src="about-tiny-icon.svg" alt=""> Остались вопросы?</p>
-                            <h1>Перезвоним!</h1>
+                            <h1 class="text-biggest_title">Перезвоним!</h1>
                         </div>
                         <div>
-                            <p>Мы свяжемся с Вами и ответим на интересующие вопросы </p>
+                            <p class="text-primary_content">Мы свяжемся с Вами и ответим на интересующие вопросы </p>
                         </div>
                         <div>
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Телефон">
+                            <input class="text-primary_content" type="text" placeholder="Ваше имя">
+                            <input class="text-primary_content" type="text" placeholder="Телефон">
                         </div>
                         <div>
                             <div>
-                                <input type="checkbox">
+                                <input class="checkbox-style" type="checkbox">
                                 <div>
-                                    <small>Я принимаю условия</small>
-                                    <a href="#">Пользовательского соглашения</a>
+                                    <small class="text-primary_tiny">Я принимаю условия</small>
+                                    <a class="text-primary_tiny" href="#">Пользовательского соглашения</a>
                                 </div>
                             </div>
                             <div>
-                                <small>Заказать звонок</small>
+                                <small class="text-primary_tiny">Заказать звонок</small>
                                 <img src="phone-icon.svg" alt="">
                             </div>
                         </div>
@@ -326,8 +326,8 @@
                     <div class="phone_rigth-block">
                         <img src="phone-img.svg" alt="">
                         <div>
-                            <p>Жбанова Татьяна</p>
-                            <p>Руководитель отдела реализации баллонов</p>
+                            <p class="text-primary_content">Жбанова Татьяна</p>
+                            <p class="text-primary_content">Руководитель отдела реализации баллонов</p>
                         </div>
                     </div>
                 </div>
@@ -342,7 +342,7 @@
                 </div>
                 <div>
                     <div>
-                        <small>Телефон для справок</small>
+                        <small class="text-primary_tiny">Телефон для справок</small>
                         <h1>8 800 222 59 44</h1>
                     </div>
                     <div>
@@ -355,29 +355,29 @@
             </div>
             <div class="footer-center">
                 <div>
-                    <p>Газгольдер</p>
-                    <p>Заправка Обслуживание Установка</p>
+                    <p class="text-primary_tiny">Газгольдер</p>
+                    <p class="text-primary_tiny">Заправка Обслуживание Установка</p>
                 </div>
                 <div>
-                    <p>Газовые баллоны</p>
-                    <p>Продажа Заправка Освидетельствование Ремонт</p>
+                    <p class="text-primary_tiny">Газовые баллоны</p>
+                    <p class="text-primary_tiny">Продажа Заправка Освидетельствование Ремонт</p>
                 </div>
                 <div>
-                    <p>Авто на пропане</p>
-                    <p>АГЗС Установка ГБО Обслуживание ГБО</p>
+                    <p class="text-primary_tiny">Авто на пропане</p>
+                    <p class="text-primary_tiny">АГЗС Установка ГБО Обслуживание ГБО</p>
                 </div>
                 <div>
-                    <p>Корпоративным клиентам</p>
-                    <p>СУГ Заправка автопарка пропаном Обслуживание газовозов</p>
+                    <p class="text-primary_tiny">Корпоративным клиентам</p>
+                    <p class="text-primary_tiny">СУГ Заправка автопарка пропаном Обслуживание газовозов</p>
                 </div>
                 <div>
-                    <p>О компании</p>
-                    <p>История Миссия и ценности Контакты Документы</p>
+                    <p class="text-primary_tiny">О компании</p>
+                    <p class="text-primary_tiny">История Миссия и ценности Контакты Документы</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>2023</p>
-                <a href="#">Пользовательское соглашение</a>
+                <p class="text-primary_tiny">2023</p>
+                <a class="text-primary_tiny" href="#">Пользовательское соглашение</a>
             </div>
         </div>
     </footer>
