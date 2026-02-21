@@ -1,0 +1,160 @@
+@media (max-width:1179px) {
+    .home__right-img {
+        display: none;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .gas-holder2-flex {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .gas-holder2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 160vh;
+    }
+
+    .gas__holder2_wrapper {
+        height: 160vh;
+    }
+
+    .gas-holder4__sidebar--right {
+        margin: 50px auto;
+        height: 190vh;
+    }
+
+    .gas-holder4 {
+        height: 180vh;
+    }
+
+    .gas__holder4_wrapper {
+        height: 180vh;
+    }
+
+    .Propane__machine {
+        height: 190vh;
+    }
+
+    .Propane__machine-flex {
+        height: 190vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .Propane__machine_wrapper {
+        height: 190vh;
+    }
+
+}
+
+@media (max-width:1106px) {
+    .corporate__clients {
+        height: 150vh;
+    }
+
+}
+
+
+@media (max-width: 1030px) {
+    .corporate__clients {
+        height: 180vh;
+    }
+
+    .corporate__clients-wrapper {
+        height: 180vh;
+    }
+}
+
+
+@media (max-width:837px) {
+    .corporate__clients {
+        height: 200vh;
+    }
+
+    .corporate__clients-wrapper {
+        height: 200vh;
+    }
+
+}
+
+
+@media (max-width:552px) {
+    .corporate__clients {
+        height: 380vh;
+    }
+
+    .corporate__clients-wrapper {
+        height: 380vh;
+    }
+}
+
+@media (max-width: 935px) {
+    footer {
+        height: 110vh;
+    }
+
+    .footer__text-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 850px) {
+    footer {
+        height: 110vh;
+    }
+
+    .footer__text-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:605px) {
+    .For__corporate-clients-title {
+        margin-top: -50px;
+    }
+
+    .For__corporate-clients-text {
+        padding-bottom: 50px;
+    }
+    .For__corporate-clients-down {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        height: 140vh;
+    }
+
+    .footer__logo {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__text-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        height: 210vh;
+    }
+
+    .footer__text-container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
