@@ -1059,6 +1059,13 @@ li{
     .footer-bottom{
         max-width: 700px;
     }
+    .header-numbers__wrapper{
+        display: none;
+    }
+    .header__top-block{
+        display: flex;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 945px) {
     .footer-center{
