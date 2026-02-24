@@ -890,6 +890,9 @@ li{
     .responsive-text{
         text-align: center;
     }
+    .footer-center{
+        max-width: 1450px;
+    }
 }
 @media screen and (max-width: 1575px) {
     .dates__wrapper{
@@ -905,6 +908,9 @@ li{
     .materials__wrapper{
         max-width: 1450px;
     }
+    .footer-bottom{
+        max-width: 1450px;
+    }
 }
 @media screen and (max-width: 1560px) {
     .phone_rigth-block{
@@ -912,6 +918,9 @@ li{
     }
     .phone__wrapper{
         max-width: 1700px;
+    }
+    .footer-top{
+        max-width: 1450px;
     }
 }
 @media screen and (max-width: 1526px) {
@@ -935,6 +944,9 @@ li{
     .equipment-content__wrapper{
         max-width: 1330px;
         width: 100%;
+    }
+    .footer-bottom{
+        max-width: 1330px;
     }
 }
 @media screen and (max-width: 1480px) {
@@ -971,6 +983,13 @@ li{
         width: 100%;
     }
     .materials__wrapper{
+        max-width: 1330px;
+    }
+    .footer-center{
+        max-width: 1330px;
+        flex-wrap: wrap;
+    }
+    .footer-top{
         max-width: 1330px;
     }
 }
@@ -1017,5 +1036,33 @@ li{
     }
     .materials__wrapper{
         max-width: 1200px;
+    }
+}
+@media screen and (max-width: 1355px) {
+    .footer-top{
+        padding-right: 40px;
+    }
+    .responsive-vanisher{
+        display: none;
+    }
+    .footer-bottom{
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 1085px) {
+    .footer-responsive-vanisher{
+        display: none;
+    }
+    .footer-number{
+        justify-content: end;
+    }
+    .footer-bottom{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 945px) {
+    .footer-center{
+        justify-content: center;
+        gap: 70px;
     }
 }
