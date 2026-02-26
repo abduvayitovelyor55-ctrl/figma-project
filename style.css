@@ -157,6 +157,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 li{
     list-style: none;
@@ -273,6 +274,7 @@ li{
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .delivery-cards{
     display: flex;
@@ -1037,6 +1039,12 @@ li{
     .materials__wrapper{
         max-width: 1200px;
     }
+    .responsive-vanisher{
+        display: none;
+    }
+    .delivery__wrapper{
+        padding-top: 50px;
+    }
 }
 @media screen and (max-width: 1355px) {
     .footer-top{
@@ -1063,13 +1071,155 @@ li{
         display: none;
     }
     .header__top-block{
+        margin: 0 auto;
+        max-width: 800px;
         display: flex;
         justify-content: center;
+    }
+    .header-top-right__wrapper{
+        display: none;
+    }
+    .bars__wrapper{
+        display: none;
+    }
+    .header-top-left__wrapper{
+        justify-content: center;
+    }
+    .responsive-header_text{
+        text-align: center;
+    }
+    .header-responsive-div{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .about-block__wrapper > div{
+        max-width: 754px;
+    }
+    .about-block__wrapper{
+        align-items: center;
     }
 }
 @media screen and (max-width: 945px) {
     .footer-center{
         justify-content: center;
         gap: 70px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .dates-block{
+        max-width: 650px;
+        min-height: 280px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .delivery-checkbox_wrapper{
+        justify-content: center;
+    }
+    .delivery-big_btn{
+        padding: 30px 120px;
+    }
+    .delivery-30min-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .responsive-vanisher-li{
+        display: none;
+    }
+    .header__menu-block > ul{
+        justify-content: space-around;
+    }
+    .about-block__wrapper > div{
+        min-height: 220px;
+        max-width: 630px;
+        gap: 24px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .responsive-header_title{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    .delivery-top > h1{
+        text-align: center;
+    }
+    .dates-block{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 675px) {
+    .equipment__img{
+        max-width: 430px;
+    }
+    .responsive-equipment-title{
+        text-align: center;
+    }
+    .equipment-content__wrapper{
+        height: 380px;
+        max-width: 630px;
+    }
+}
+@media screen and (max-width: 655px) {
+    .delivery-cars__wrapper{
+        justify-content: center;
+        gap: 40px;
+    }
+    .about-block__wrapper > div{
+        min-height: 190px;
+        max-width: 570px;
+        gap: 18px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .responsive-equipment-title{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .responsive-about_vanisher{
+       display: none;
+    }
+    .responsive-about_vanisher > img{
+        display: none;
+    }
+    .responsive-about_vanisher > h1{
+        display: none;
+    }
+    #responsive-about_vanisher{
+        display: none;
+    }
+    .equipment__img{
+        max-width: 350px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .delivery-big_btn{
+        padding: 15px 60px;
+    }
+    .delivery-53day > h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .delivery-checkbox_wrapper{
+        margin-top: 30px;
+    }
+    .equipment__img{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .responsive-equipment-title{
+        font-size: 33px;
+    }
+    .equipment__img{
+        max-width: 250px;
+    }
+    .equipment-content__wrapper{
+        height: 300px;
     }
 }
